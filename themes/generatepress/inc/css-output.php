@@ -1063,7 +1063,7 @@ function generate_no_cache_dynamic_css() {
 	$css = new GeneratePress_CSS();
 
 	if ( generate_is_using_flexbox() ) {
-		$right_sidebar_width = apply_filters( 'generate_right_sidebar_width', '30' );
+		$right_sidebar_width = apply_filters( 'generate_right_sidebar_width', '0' );
 		$left_sidebar_width = apply_filters( 'generate_left_sidebar_width', '30' );
 
 		$css->set_selector( '.is-right-sidebar' );
