@@ -1847,3 +1847,11 @@ nav.toggled .sfHover > a > .dropdown-menu-toggle .gp-icon.icon-arrow-right svg {
 	visibility: visible;
 	width: auto;
 }
+
+.site-content .content-area {
+	width: 100% !important;
+}
+.site-content .right-sidebar {
+	width: unset !important;
+}
+
