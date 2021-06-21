@@ -13,8 +13,8 @@ sudo apt install docker-compose
 
 2: Repo configs
 ```bash
-git clone XXX
-cd XXX
+git clone git@github.com:PentiumLuls/eshop-lab.git
+cd eshop-lab
 cp .env.sample .env
 ```
 
